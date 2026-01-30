@@ -52,7 +52,7 @@ Comparison operators compare two values and return a boolean value (true or fals
 | Operator | Description                         |
 | -------- | ----------------------------------- |
 |==	       | Equal (checks value only)           |
-|==	       |Strict equal (checks value and type) |
+|===	       |Strict equal (checks value and type) |
 |!=	       | Not equal                           |
 |!==	     |  Strict not equal                   |
 |>	       | Greater than                        |
