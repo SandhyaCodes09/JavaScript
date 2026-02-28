@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(206, 218, 230);
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+/* Hide Button */
+.hide{
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.hide:hover{
+    background-color: #cc0000;
+}
+
+/* Show Button */
+.show{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.show:hover{
+    background-color: #2e7d32;
+}
+

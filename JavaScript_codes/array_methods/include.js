@@ -1,0 +1,1 @@
+// include() -> Checks if element exists(Method that return single value)
