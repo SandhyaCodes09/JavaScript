@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:rgb(202, 201, 201);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#signup{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    width:300px;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+#signup input{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:14px;
+}
+
+#signup input:focus{
+    outline:none;
+    border-color:#2575fc;
+}
+
+#signup input[type="submit"]{
+    background:#2575fc;
+    color:white;
+    border:none;
+    cursor:pointer;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+#signup input[type="submit"]:hover{
+    background:#1b5ed7;
+}
+
+#message{
+    font-size:14px;
+    text-align:center;
+}
