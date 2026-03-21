@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flexbox Layout</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+.container {
+    display: flex;          /* Enable Flexbox */
+}
+
+.box {
+    padding: 40px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+/* First box twice width */
+.box1 {
+    flex: 2;
+    background-color: #3498db;
+}
+
+/* Other two boxes equal width */
+.box2,
+.box3 {
+    flex: 1;
+    background-color: #2ecc71;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="box box1">Box 1</div>
+    <div class="box box2">Box 2</div>
+    <div class="box box3">Box 3</div>
+</div>
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Food Preferences</title>
+  </head>
+  <body>
+    <h1>Food Preferences</h1>
+
+    <form>
+      <label for="cuisine">Select Cuisine Type:</label><br />
+      <!-- Add your drop-down list here -->
+      <select id = "cuisine" name="cuisine" required">
+
+        <option value = ""> Please choose a cuisine </option>
+        <option value = "Italian"> Italian</option>
+        <option value = "Indian"> Indian </option>
+        <option value="mexican">Mexican</option>
+        <option value="chinese">Chinese</option>
+        <option value="japanese">Japanese</option>
+        <option value="thai">Thai</option>
+
+      </select><br /><br />
+
+
+      <label for="dietary">Dietary Requirements:</label><br />
+      <!-- Add your drop-down list here -->
+      <select id="dietary" name="dietary" required>
+
+        <option value="">Please specify dietary needs</option>
+
+        <option value="none">No Special Requirements</option>
+
+        <option value="vegetarian">Vegetarian</option>
+
+        <option value="vegan">Vegan</option>
+
+        <option value="gluten-free">Gluten Free</option>
+
+        <option value="dairy-free">Dairy Free</option>
+
+      </select>
+      <br /><br />
+
+      <button type="submit">Submit Preferences</button>
+    </form>
+  </body>
+</html>
+
